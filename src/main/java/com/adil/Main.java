@@ -1,10 +1,13 @@
 package com.adil;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.printf("Hello qa.guru!");
 
-        for (int i = 1; i <= 5; i++) {
+    private static String msg = "Hello qa.guru!12312321";
+    
+    public static void main(String[] args) {
+        System.out.printf(msg);
+
+        for (int i = 1; i <= 3; i++) {
             System.out.println("i = " + i);
         }
     }
